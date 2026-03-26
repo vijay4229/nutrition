@@ -6,7 +6,7 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-console.log("🔑 API KEY:", process.env.AIzaSyB8IMcSzrZkXNUF0TuYi-BPuxXkXPzheSo ? "Loaded ✅" : "Missing ❌");
+console.log("🔑 API KEY:", process.env.API_KEY ? "Loaded ✅" : "Missing ❌");
 
 const app = express();
 app.use(cors());
